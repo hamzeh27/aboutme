@@ -81,7 +81,6 @@ number= parseInt(number);
       if(number==10){
           console.log("correct")
        alert("correct")
-       break;
        }else if(number<10){
          console.log(number)
           alert("too low");
