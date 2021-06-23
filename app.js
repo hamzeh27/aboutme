@@ -99,7 +99,7 @@ number= parseInt(number);
 
 for(let i=0;i<6;i++){
     let userInput= prompt(" what is my Favoritesport?");
-    for(let x=0;x<myFood.length;x++){
+    for(let x=0;x<myfavoritesport.length;x++){
         if(userInput==myfavoritesport[x]){
              var flag= confirm("correct");
              if(flag==1){
