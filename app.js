@@ -81,7 +81,6 @@ number= parseInt(number);
       if(number==10){
           console.log("correct")
        alert("correct")
-       score++;
        break;
        }else if(number<10){
          console.log(number)
@@ -96,7 +95,7 @@ number= parseInt(number);
   }
   alert("my FavoriteNumber is 7") ;
   let myfavoritesport=['football','basketball','tennis',' handball ','table tennis','running'];
-
+ let userInput= prompt(" what is my Favoritesport?");
 for(let i=0;i<6;i++){
     let userInput= prompt(" what is my Favoritesport?");
     for(let x=0;x<myfavoritesport.length;x++){
