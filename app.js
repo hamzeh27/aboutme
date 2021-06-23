@@ -103,13 +103,12 @@ for(let i=0;i<6;i++){
              if(flag==1){
                  break;
              }
-            score++;
-            i==7
+            
+            
          
         }
     }
 
-    break;
 
 }
 prompt ("thanks for visit ");
