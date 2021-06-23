@@ -75,4 +75,43 @@ let result = prompt ("are you honset with answer previous questions  ?note : ans
               console.log("no i dont  ");
               break;
             }
-prompt ("thanks for visit "); 
+let number= prompt(" what is my FavoriteNumber?")
+number= parseInt(number);
+  for(let guess=0 ; guess<4 ; guess++){
+      if(number==10){
+          console.log("correct")
+       alert("correct")
+       score++;
+       break;
+       }else if(number<10){
+         console.log(number)
+          alert("too low");
+          number= prompt("hi user what is my FavoriteNumber?")
+    }else if(number>10){
+         console.log(number)
+      alert("too high")
+      number= prompt("hi user what is my FavoriteNumber?")
+
+      }
+  }
+  alert("my FavoriteNumber is 7") ;
+  let myfavoritesport=['football','basketball','tennis',' handball ','table tennis','running'];
+
+for(let i=0;i<6;i++){
+    let userInput= prompt(" what is my Favoritesport?");
+    for(let x=0;x<myFood.length;x++){
+        if(userInput==myfavoritesport[x]){
+             var flag= confirm("correct");
+             if(flag==1){
+                 break;
+             }
+            score++;
+            i==7
+         
+        }
+    }
+
+    break;
+
+}
+prompt ("thanks for visit ");
