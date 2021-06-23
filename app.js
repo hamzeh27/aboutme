@@ -92,7 +92,7 @@ number= parseInt(number);
 
       }
   }
-  alert("my FavoriteNumber is 7") ;
+  alert("my FavoriteNumber is 10") ;
   let myfavoritesport=['football','basketball','tennis',' handball ','table tennis','running'];
  let userInput= prompt(" what is my Favoritesport?");
 for(let i=0;i<6;i++){
